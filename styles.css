@@ -1,0 +1,14 @@
+html {
+    background-color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    color: #1a53ff;
+    font-size: 3.125rem;
+}
+
+p {
+    font-size: 1rem;
+}
