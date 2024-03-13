@@ -11,10 +11,14 @@ html {
 }
 
 header {
-    display: inline-block;
+    display: inline-flex;
     font-size: 1.5rem;
     text-align: center;
     padding: 0.625rem;
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+
 }
 header a{
     font-family: poppins-italic, sans-serif;
@@ -24,6 +28,14 @@ header a{
     text-decoration: none;
     color: #000000;
 }
+
+#home {
+    align-self: flex-start;
+}
+
+#contact {
+    align-self: flex-end;
+}
 h1 {
     color: #1a53ff;
     font-size: 3.125rem;
@@ -32,3 +44,11 @@ h1 {
 p {
     font-size: 1rem;
 }
+
+img {
+    border-radius: 50%;
+    transition: transform .7s ease-in-out;
+  }
+img:hover {
+    transform: rotate(360deg);
+  }
