@@ -4,6 +4,26 @@ html {
     font-size: 16px;
     line-height: 1.5;
 }
+
+@font-face {
+    font-family: poppins-italic;
+    src: url(./fonts/poppins/Poppins-Italic.ttf);
+}
+
+header {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.625rem;
+}
+header a{
+    font-family: poppins-italic, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.625rem;
+    text-decoration: none;
+    color: #000000;
+}
 h1 {
     color: #1a53ff;
     font-size: 3.125rem;
