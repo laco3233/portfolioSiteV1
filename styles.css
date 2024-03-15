@@ -17,6 +17,7 @@ header {
     margin: 0;
     padding: 0;
     width: 100%;
+    justify-content: space-between;
 }
 header a{
     font-family: poppins-italic, sans-serif;
@@ -25,17 +26,24 @@ header a{
     text-decoration: none;
     color: #000000;
 }
-
 #home {
-    align-self: flex-start;
+    align-self: start;
 }
-
 #contact {
-    justify-self: flex-end;
+    align-self: end;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro {
+    display: grid;
+    justify-content: center;
 }
 h1 {
     color: #1a53ff;
     font-size: 3.125rem;
+    align-self: self-end;
 }
 
 p {
@@ -52,6 +60,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 .imageContainer{   
     display: grid;
