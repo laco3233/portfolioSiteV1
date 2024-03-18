@@ -86,3 +86,10 @@ img:hover {
     display: flex;
     justify-content: space-evenly;
 }
+.firstName{
+    border-radius: 5px;
+}
+.submitButton{
+    border-radius: 5px;
+    background-color: #41eef4;
+}
