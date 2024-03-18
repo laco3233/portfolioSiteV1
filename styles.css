@@ -1,8 +1,10 @@
 html {
-    background-color: #ffffff;
+    background-color: #ffffffc6;
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-image: url(./images/css-pattern-by-magicpattern.png);
+    background-size: cover;
 }
 
 @font-face {
@@ -71,6 +73,7 @@ img {
     border-radius: 50%;
     transition: transform .7s ease-in-out;
     max-width: 150px;
+    border: solid rgb(0, 0, 0) 2px;
 }
 img:hover {
     transform: rotate(360deg);
