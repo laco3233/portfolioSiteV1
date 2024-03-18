@@ -93,3 +93,11 @@ img:hover {
     border-radius: 5px;
     background-color: #41eef4;
 }
+.contactPage{
+    text-align: center;
+    justify-content: center;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
