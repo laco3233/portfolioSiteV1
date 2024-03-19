@@ -6,6 +6,11 @@ html {
     background-image: url(./images/css-pattern-by-magicpattern.png);
     background-size: cover;
 }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 @font-face {
     font-family: poppins-italic;
@@ -96,8 +101,16 @@ img:hover {
 .contactPage{
     text-align: center;
     justify-content: center;
+    min-height: 100%;
+    margin-bottom: -40px;
 }
 .contactContainer{
     display: flex;
     justify-content: space-evenly;
+}
+footer{
+    text-align: center;
+    font-size: 0.75rem;
+    height: 40px;
+    margin-top: 40px;
 }
