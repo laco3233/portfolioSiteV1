@@ -4,7 +4,7 @@
 
 
 //insult generator
-const insultSubmitButton = document.getElementsByClassName("insultSubmitButton");
+const insultSubmitButton = document.getElementById("insultSubmit");
 
 let getInsult = (insult) => {
     insultSubmitButton.addEventListener('click', insultGenerator);

@@ -94,7 +94,7 @@ img:hover {
 .firstName{
     border-radius: 5px;
 }
-.jokeSubmit, .insultSubmit{
+.submit{
     border-radius: 5px;
     background-color: #41eef4;
 }
