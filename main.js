@@ -4,11 +4,13 @@
 
 
 //insult generator
-const insultSubmitButton = document.querySelector("insultSubmitButton");
+const insultSubmitButton = document.getElementsByClassName("insultSubmitButton");
 
-insultSubmitButton.addEventListener('mousedown', insultGenerator);
-insultSubmitButton.addEventListener('mousedown', console.log("test"));
- 
+let getInsult = (insult) => {
+    insultSubmitButton.addEventListener('click', insultGenerator);
+    console.log("insult button clicked");
+    //return insult;
+}
 
 let insult = {
     adjective1: ["bald", "horrible", "terrible", "silly", "dumb", "smelly"],
