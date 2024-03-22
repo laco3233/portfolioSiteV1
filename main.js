@@ -5,8 +5,7 @@ let joke = [
     "<b>Question:</b> You want to know what gets my goat? <br/><b>Punchline:</b> El Chupacabra!",
     "<b>Question:</b> What's the best thing about Switzerland? <br/><b>Punchline:</b> I don't know, but the flag is a big plus!",
     "<b>Question:</b> What do you call a fake noodle? <br/><b>Punchline:</b> An impasta!",
-    "<b>Question:</b> What's the difference between a hippo and a zippo? <br/><b>Punchline:</b> One is really heavy, the other is a little lighter!",
-
+    "<b>Question:</b> What's the difference between a hippo and a zippo? <br/><b>Punchline:</b> One is really heavy, the other is a little lighter!"
 ]
 /**
  * Generates a random joke and displays it on the webpage.
@@ -21,8 +20,6 @@ let jokeGenerator = (event) => {
 
 //insult generator
 let insultSubmitButton = document.getElementById('insultSubmit');
-
-    
 
 let insult = {
     adjective1: ["hairless", "horrible", "awful", "silly", "unintelligent", "foul"],
