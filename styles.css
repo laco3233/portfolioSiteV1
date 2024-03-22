@@ -7,9 +7,9 @@ html {
     background-size: cover;
 }
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @font-face {
@@ -111,6 +111,5 @@ img:hover {
 footer{
     text-align: center;
     font-size: 0.75rem;
-    height: 40px;
-    margin-top: 40px;
+    margin-top: auto;
 }
