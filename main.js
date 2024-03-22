@@ -1,21 +1,26 @@
 // create dad joke generator
-//let firstName = document.querySelector("firstName");
+let jokeSubmitButton = document.getElementById('jokeSubmit');
+
+let joke = [
+    "Question: You want to know what gets my goat? Punchline: El Chupacabra!",
+    "Question: What's the best thing about Switzerland? Punchline: I don't know, but the flag is a big plus!",
+    "Question: What do you call a fake noodle? Punchline: An impasta!",
+
+]
+    
+
 
 
 
 //insult generator
-const insultSubmitButton = document.getElementById("insultSubmit");
+let insultSubmitButton = document.getElementById('insultSubmit');
 
-let getInsult = (insult) => {
-    insultSubmitButton.addEventListener('click', insultGenerator);
-    console.log("insult button clicked");
-    //return insult;
-}
+    
 
 let insult = {
-    adjective1: ["bald", "horrible", "terrible", "silly", "dumb", "smelly"],
-    adjective2: ["gawdy", "foolish", "ugly", "high calorie", "grotesque"],
-    noun: ["clown", "sponge", "fool", "Mount Rushmore", "shell of a human"]
+    adjective1: ["hairless", "horrible", "awful", "silly", "unintelligent", "foul"],
+    adjective2: ["gawdy", "foolish", "unsightly", "high calorie", "grotesque"],
+    noun: ["Toad stool", "sponge", "fool", "Mount Rushmore", "shell of a human"]
 }
 
 /**
@@ -30,6 +35,7 @@ let insultGenerator = (event) => {
     let noun = insult.noun[Math.floor(Math.random() * insult.noun.length)];
 
     console.log(`You absolute ${adjective1} ${adjective2} ${noun}`);
-    event.document.getElementById("insult").innerHTML = `You absolute ${adjective1} ${adjective2} ${noun}`;
+    document.getElementById("insult").innerHTML = `Here is your insult: "You ${adjective1} ${adjective2} ${noun}!" \nTry using it on your friends!`;
 }
 
+insultSubmitButton.addEventListener('click', insultGenerator);
