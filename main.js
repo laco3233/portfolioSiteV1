@@ -35,7 +35,7 @@ let insultGenerator = (event) => {
     let noun = insult.noun[Math.floor(Math.random() * insult.noun.length)];
 
     console.log(`You absolute ${adjective1} ${adjective2} ${noun}`);
-    document.getElementById("insult").innerHTML = `Here is your insult: "You ${adjective1} ${adjective2} ${noun}!" \nTry using it on your friends!`;
+    document.getElementById("insult").innerHTML = `Here is your insult:<br/><b>You ${adjective1} ${adjective2} ${noun}!</b><br/>Try using it on your friends!`;
 }
 
 insultSubmitButton.addEventListener('click', insultGenerator);
