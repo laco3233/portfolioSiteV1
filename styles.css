@@ -43,6 +43,7 @@ header a{
     display: flex;
     justify-content: space-evenly;
 }
+
 .intro {
     display: grid;
     justify-content: center;
@@ -95,8 +96,11 @@ img:hover {
     border-radius: 5px;
 }
 .submit{
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #41eef4;
+    height: 2.8125rem;
+    width: 11.25rem;
+    font-size: 1.5rem;
 }
 .contactPage{
     text-align: center;
@@ -112,4 +116,14 @@ footer{
     text-align: center;
     font-size: 0.75rem;
     margin-top: auto;
+}
+@media screen and (max-width: 431px) {
+
+    .main {
+        display: grid;
+    }
+    .jokes {
+        display: grid;
+    }
+    
 }
