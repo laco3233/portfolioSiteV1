@@ -49,7 +49,14 @@ header a{
     display: grid;
     justify-content: center;
     text-align: center;
-    overflow: auto;
+}
+.intro h1{
+    justify-content: center;
+    text-align: center;
+}
+.intro p{
+    text-align: center;
+    justify-content: center;
 }
 h1 {
     color: #000000;
@@ -93,9 +100,6 @@ img:hover {
     display: flex;
     justify-content: space-evenly;
 }
-.firstName{
-    border-radius: 5px;
-}
 .submit{
     border-radius: 10px;
     background-color: #41eef4;
@@ -124,18 +128,15 @@ footer{
         display: grid;
         padding: 16px;
     }
-    .intro h1 {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 1rem;
-    }
-    .intro p {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 1rem;
-    }
+    
     .jokes {
         display: grid;
+    }
+    .imageContainer {
+        max-width: 75px;
+    }
+    img {
+        max-width: 75px;
     }
     
 }
