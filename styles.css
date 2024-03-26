@@ -38,6 +38,7 @@ header a{
 }
 #contact {
     align-self: end;
+    align-content: end;
 }
 .main{
     display: flex;
