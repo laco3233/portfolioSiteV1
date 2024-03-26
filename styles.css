@@ -87,6 +87,7 @@ img:hover {
 }
 .portfolio {
     text-align: center;
+    justify-content: center;
 }
 .jokes{
     display: flex;
